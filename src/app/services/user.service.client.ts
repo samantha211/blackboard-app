@@ -10,12 +10,23 @@ export class UserService {
  findUserByCredentials(username: String, password: String){
    for(let i = 0; i < this.users.length; i++){
    const user = this.users[i];
-   if(username === user.username && password === user.password)
+   if (username === user.username && password === user.password)
    {
      return user;
    }
    }
    return null;
  }
+
+  findUserById(id: number, password: String){
+    for (let i = 0; i < this.users.length; i++){
+      const user = this.users[i];
+      if (id === user._id && password === user.password)
+      {
+        return user;
+      }
+    }
+    return null;
+  }
 }
 
