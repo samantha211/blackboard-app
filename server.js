@@ -8,4 +8,4 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+'/dist/routing-demo-class4/index.html'));
 });
 // Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 8080);
