@@ -10,7 +10,7 @@ import { routing } from './app-routing.module';
 import {RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {UserService} from './services/user.service.client';
-import {CourseService} from '../services/CourseService';
+import {CourseService} from './services/CourseService';
 import { CourseNavigatorComponent } from './course-navigator/course-navigator.component';
 
 @NgModule({

@@ -31,11 +31,9 @@ export class CourseNavigatorComponent implements OnInit {
   selectCourse(course: never){
     this.selectedCourse = course;
   }
-
   selectModule(module: any) {
   this.selectedModule = module;
   }
-
   selectLesson(lesson: any) {
   this.selectedLesson = lesson;
   }
